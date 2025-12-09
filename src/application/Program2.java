@@ -23,10 +23,14 @@ public class Program2 {
 		departmentDao.update(dep2);
 		System.out.println("Update completed");*/
 		
-		System.out.println("\n=== TEST 3: department findAll ====");
+		/*System.out.println("\n=== TEST 3: department findAll ====");
 		List<Department> list = departmentDao.findAll();
 		for(Department obj : list) {
 			System.out.println(obj);
-		}
+		}*/
+		
+		System.out.println("\n=== TEST 4: department findById ====");
+		Department department = departmentDao.findById(1);
+		System.out.println(department);
 	}
 }
