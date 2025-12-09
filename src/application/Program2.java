@@ -29,8 +29,13 @@ public class Program2 {
 			System.out.println(obj);
 		}*/
 		
-		System.out.println("\n=== TEST 4: department findById ====");
+		/*System.out.println("\n=== TEST 4: department findById ====");
 		Department department = departmentDao.findById(1);
-		System.out.println(department);
+		System.out.println(department);*/
+		
+		System.out.println("\n=== TEST 4: department delete ====");
+		departmentDao.deleteById(23);
+		System.out.println("Delete completed");
+		
 	}
 }
